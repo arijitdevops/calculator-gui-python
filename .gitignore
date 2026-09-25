@@ -1,0 +1,41 @@
+# Byte-compiled / optimised files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# PyInstaller working files (calculator.spec is tracked on purpose)
+*.manifest
+*.exe
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test and coverage artefacts
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Tooling caches
+.ruff_cache/
+.mypy_cache/
+
+# Local configuration
+.env
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

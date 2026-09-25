@@ -1,0 +1,9 @@
+# Runtime dependencies.
+#
+# PyCalculator deliberately has none: the GUI uses Tkinter and the engine uses
+# the math module, both of which ship with CPython. This file exists so that
+# `pip install -r requirements.txt` is a valid step in the install instructions
+# and so that the project stays honest if a dependency is ever added.
+#
+# Note for Linux users: Tkinter is packaged separately by most distributions.
+# On Debian or Ubuntu run `sudo apt install python3-tk`.
